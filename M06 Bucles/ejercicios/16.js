@@ -5,6 +5,22 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!".
   // Si "idioma" no es ninguno de los anteriores o es `undefined`, devuelve "Hola!".
   // Tu código:
-}
+  switch (idioma) {
+    case "aleman":
+      return "Guten Tag!";
+    case "mandarin":
+      return "Ni Hao!";
+    case "ingles":
+      return "Hello!";
+      break;
 
+    default:
+      return "Hola!";
+      break;
+  }
+}
+console.log(saludo("aleman"));
+console.log(saludo("mandarin"));
+console.log(saludo("ingles"));
+console.log(saludo("latin"));
 module.exports = saludo;

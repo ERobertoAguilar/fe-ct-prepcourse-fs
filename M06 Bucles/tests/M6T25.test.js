@@ -1,25 +1,25 @@
-const esPalindromo = require('../ejercicios/25');
+const esPalindromo = require("../ejercicios/25");
 
 test("esPalindromo devuelve true para 'ana'", () => {
-  expect(esPalindromo('ana')).toBe(true);
+  expect(esPalindromo("ana")).toBe(true);
 });
 
 test("esPalindromo devuelve true para 'reconocer'", () => {
-  expect(esPalindromo('reconocer')).toBe(true);
+  expect(esPalindromo("reconocer")).toBe(true);
 });
 
 test("esPalindromo devuelve true para 'La ruta nos aporto otro paso natural'", () => {
-  expect(esPalindromo('La ruta nos aporto otro paso natural')).toBe(true);
+  expect(esPalindromo("La ruta nos aporto otro paso natural")).toBe(true);
 });
 
 test("esPalindromo devuelve false para 'hola'", () => {
-  expect(esPalindromo('hola')).toBe(false);
+  expect(esPalindromo("hola")).toBe(false);
 });
 
 test("esPalindromo devuelve false para 'javascript'", () => {
-  expect(esPalindromo('javascript')).toBe(false);
+  expect(esPalindromo("javascript")).toBe(false);
 });
 
 test("esPalindromo devuelve false para 'No subas, abusón'", () => {
-  expect(esPalindromo('No subas, abusón')).toBe(false);
+  expect(esPalindromo("No subas, abusón")).toBe(false);
 });
