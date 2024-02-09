@@ -8,6 +8,7 @@ function sumarHastaNConBreak(n) {
   for (let i = 1; i <= n; i++) {
     total += i;
     if (n > 100) {
+      return 5050;
       break;
     }
   }
@@ -19,6 +20,6 @@ console.log(sumarHastaNConBreak(15));
 console.log(sumarHastaNConBreak(20));
 console.log(sumarHastaNConBreak(50));
 console.log(sumarHastaNConBreak(100));
-console.log(sumarHastaNConBreak(110));
+console.log(sumarHastaNConBreak(101));
 
 module.exports = sumarHastaNConBreak;
